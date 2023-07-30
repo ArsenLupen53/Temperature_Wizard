@@ -25,3 +25,13 @@ function computeTemp(event) {
             break;
     }
 }
+
+function clearInputs() {
+    const celsiusInput = document.getElementById("Celsius");
+    const fahrenheitInput = document.getElementById("Fahrenheit");
+    const kelvinInput = document.getElementById("Kelvin");
+
+    celsiusInput.value = "";
+    fahrenheitInput.value = "";
+    kelvinInput.value = "";
+}
