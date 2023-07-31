@@ -27,7 +27,7 @@ function computeTemp(event) {
 }
 
 function clearInputs() {
-    const celsiusInput = document.getElementById("Celsius");
+    const celsiusInput = document.getElementById("Celcius");
     const fahrenheitInput = document.getElementById("Fahrenheit");
     const kelvinInput = document.getElementById("Kelvin");
 
