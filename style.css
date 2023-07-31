@@ -5,7 +5,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(90deg, rgba(93, 99, 204, 1) 0%, rgba(245, 240, 242, 1) 100%, rgba(0, 212, 255, 1) 100%);
-    font-family: monospace, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     color: #0d5370;
 }
 
@@ -44,12 +44,14 @@ input {
     outline: none;
     background: rgba(0, 212, 255, 0.3);
     border-color: rgba(255, 255, 255, 0.6);
-    color: darkblue;
+    color: #0d5370;
     font-size: 18px;
 }
 
 input::placeholder {
     color: crimson;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 15px;
 }
 
 /* Responsive CSS */

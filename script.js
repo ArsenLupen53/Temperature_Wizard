@@ -25,6 +25,9 @@ function computeTemp(event) {
             break;
     }
 }
+celciusEl.addEventListener("input", computeTemp);
+fahrenheitEl.addEventListener("input", computeTemp);
+kelvinEl.addEventListener("input", computeTemp);
 
 function clearInputs() {
     const celsiusInput = document.getElementById("Celcius");
